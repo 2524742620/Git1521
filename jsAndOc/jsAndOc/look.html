@@ -1,0 +1,74 @@
+
+<!--html5标准网页声明-->
+<!DOCTYPE html>
+
+<HTML>
+<!--    
+ <head></head>；这2个标记符分别表示头部信息的开始和结尾。头部中包含的标记是页面的标题、序言、说明等内容，它本身不作为内容来显示，但影响网页显示的效果。头部中最常用的标记符是标题标记符和meta标记符，其中标题标记符用于定义网页的标题，它的内容显示在网页窗口的标题栏中，网页标题可被浏览器用作书签和收藏清单。
+ -->
+	<HEAD>
+		<TITLE>js和OC交互</TITLE>
+        <!--<meta>定义了HTML文档中的元数据-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!--定义js方法-->
+		<script>
+            function toAlert(str){
+                alert(str);
+            }
+        function fromOC(some){
+            alert(some);
+        }
+        function add(){
+            var a=document.getElementById("numA").value;
+            var b=document.getElementById("numB").value;
+            document.getElementById("result").innerHTML="结果："+(Number(a)+Number(b));
+        }
+		</script>
+        <style>
+            #div2{
+                width:100px;
+                height:100px;
+                background:yellow;
+                float:left;
+            }
+     
+        </style>
+        <!--外部js文件引用-->
+        <script src="look.js"></script>
+        <!--外部css文件引用css/index.css-->
+        <link rel="stylesheet" type="text/css" href="look.css"/>
+
+	</HEAD>
+<!--    <body></body>文档体，文档的可见部分。-->
+	<BODY>
+		<input id="numA" style="width: 50px;"/>
+		&nbsp;
+		<input id="numB" style="width: 50px;"/>
+		&nbsp;
+		<button onclick="add()">输出和</button>
+		<p id="result" style="background-color: yellow;color: red;width: 200px;">结果：</p>
+		<br />
+        
+        <div id="div1" style='width:100px;height:100px;background:red'>
+        </div>
+        <div id="div2">
+        </div>
+        <button id="btn">js事件响应</button>
+        <script>
+            function change(){
+                document.getElementById("div1").style.background="green";
+            }
+        document.getElementById("btn").onclick=change;
+        </script>
+        
+        
+        <br />
+		<button class= "nomalBtn" onclick="buttonClicked()">谈谈谈</button>
+		<br />
+		<button class= "nomalBtn" onclick="gotoBaidu()">百度</button>
+		<br />
+		<button class= "nomalBtn" onclick="jsWant()">js调用OC进行购买</button>
+		
+	</BODY>
+
+</HTML>

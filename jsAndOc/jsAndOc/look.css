@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.nomalBtn{
+	color:blue;
+	height:16px;
+	font-size:12px;
+	border:0 solid gray;
+	background-color:aqua;
+}
