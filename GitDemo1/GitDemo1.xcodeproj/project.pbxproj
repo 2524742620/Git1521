@@ -40,7 +40,7 @@
 		BCE0116F1CAE569300934662 /* PersonA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonA.m; sourceTree = "<group>"; };
 		BCE011721CAE5D3000934662 /* PersonD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonD.h; sourceTree = "<group>"; };
 		BCE011731CAE5D3000934662 /* PersonD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonD.m; sourceTree = "<group>"; };
->>>>>>> 08556b5e41846e416dc4697b8f95d8a01e81133f
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
