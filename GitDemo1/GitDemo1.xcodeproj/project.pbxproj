@@ -13,8 +13,9 @@
 		BCE0115C1CAE50F400934662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE0115A1CAE50F400934662 /* Main.storyboard */; };
 		BCE0115E1CAE50F400934662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE0115D1CAE50F400934662 /* Assets.xcassets */; };
 		BCE011611CAE50F400934662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE0115F1CAE50F400934662 /* LaunchScreen.storyboard */; };
-		BCE011701CAE569300934662 /* PersonA.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0116F1CAE569300934662 /* PersonA.m */; };
 		BCE0116C1CAE54E700934662 /* PersonB.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0116B1CAE54E700934662 /* PersonB.m */; };
+		BCE011701CAE569300934662 /* PersonA.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0116F1CAE569300934662 /* PersonA.m */; };
+		BCE011741CAE5D3000934662 /* PersonD.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE011731CAE5D3000934662 /* PersonD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,13 +29,12 @@
 		BCE0115D1CAE50F400934662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCE011601CAE50F400934662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCE011621CAE50F400934662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-
-		BCE0116E1CAE569300934662 /* PersonA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonA.h; sourceTree = "<group>"; };
-		BCE0116F1CAE569300934662 /* PersonA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonA.m; sourceTree = "<group>"; };
-
 		BCE0116A1CAE54E700934662 /* PersonB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonB.h; sourceTree = "<group>"; };
 		BCE0116B1CAE54E700934662 /* PersonB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonB.m; sourceTree = "<group>"; };
-
+		BCE0116E1CAE569300934662 /* PersonA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonA.h; sourceTree = "<group>"; };
+		BCE0116F1CAE569300934662 /* PersonA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonA.m; sourceTree = "<group>"; };
+		BCE011721CAE5D3000934662 /* PersonD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonD.h; sourceTree = "<group>"; };
+		BCE011731CAE5D3000934662 /* PersonD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +67,7 @@
 		BCE011501CAE50F400934662 /* GitDemo1 */ = {
 			isa = PBXGroup;
 			children = (
+				BCE011711CAE5D1A00934662 /* C */,
 				BCE0116D1CAE567D00934662 /* A */,
 				BCE011681CAE54C200934662 /* B */,
 				BCE011541CAE50F400934662 /* AppDelegate.h */,
@@ -90,17 +91,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-
-		BCE0116D1CAE567D00934662 /* A */ = {
-			isa = PBXGroup;
-			children = (
-				BCE0116E1CAE569300934662 /* PersonA.h */,
-				BCE0116F1CAE569300934662 /* PersonA.m */,
-			);
-			name = A;
-            sourceTree = "<group>";
-         };
-
 		BCE011681CAE54C200934662 /* B */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +98,24 @@
 				BCE0116B1CAE54E700934662 /* PersonB.m */,
 			);
 			name = B;
+			sourceTree = "<group>";
+		};
+		BCE0116D1CAE567D00934662 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				BCE0116E1CAE569300934662 /* PersonA.h */,
+				BCE0116F1CAE569300934662 /* PersonA.m */,
+			);
+			name = A;
+			sourceTree = "<group>";
+		};
+		BCE011711CAE5D1A00934662 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				BCE011721CAE5D3000934662 /* PersonD.h */,
+				BCE011731CAE5D3000934662 /* PersonD.m */,
+			);
+			name = C;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +191,7 @@
 				BCE011701CAE569300934662 /* PersonA.m in Sources */,
 				BCE011591CAE50F400934662 /* ViewController.m in Sources */,
 				BCE0116C1CAE54E700934662 /* PersonB.m in Sources */,
+				BCE011741CAE5D3000934662 /* PersonD.m in Sources */,
 				BCE011561CAE50F400934662 /* AppDelegate.m in Sources */,
 				BCE011531CAE50F400934662 /* main.m in Sources */,
 			);
